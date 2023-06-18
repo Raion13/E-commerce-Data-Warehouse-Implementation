@@ -10,7 +10,11 @@ The client needs a robust Data Warehouse solution to effectively analyze their e
 3. Objective
 The objective of this project is to successfully implement a Data Warehouse solution for the e-commerce client, enabling efficient data analysis and reporting. The Data Warehouse should accurately reflect the business processes and support the client's decision-making needs.
 
-4. Steps
+4. Tools
+- SQL Server & SQL Server Management Studio
+- Talend
+
+6. Steps
 a. Import/Restore Database Staging
 - Obtain the source database backup file. Perform the necessary steps to import or restore the database into the staging environment.
 - Importing the database into the staging environment is a crucial initial step for further data processing and transformation.
