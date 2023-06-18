@@ -1,0 +1,15 @@
+1. Import/Restore Database Staging
+- Obtain the source database backup file. Perform the necessary steps to import or restore the database into the staging environment.
+- Importing the database into the staging environment is a crucial initial step for further data processing and transformation.
+
+2. Create DWH_Project Database and Tables
+- Create a new database named "DWH_Project". Design and create the Fact table and Dimension tables based on the relevant tables in the staging database.
+- Creating a dedicated database and designing the appropriate schema is essential for organizing the Data Warehouse effectively.
+
+3. Develop ETL Job with Talend
+- Configure Talend for ETL processes. Create a job in Talend to extract data from the staging tables and load it into the corresponding Fact and Dimension tables in the DWH_Project database. Implement data transformation logic for the DimCustomer table to capitalize the FirstName and LastName columns and combine them into a new column called CustomerName.
+- Talend provides powerful ETL capabilities, enabling efficient data extraction, transformation, and loading. Transforming the customer name data aligns with the client's requirements and enhances data consistency.
+
+4. Create Summary Sales Order Stored Procedure
+- Define a stored procedure in SQL Server that generates a summary report of sales orders based on their delivery status. Implement the necessary SQL queries to aggregate and summarize the sales order data. Ensure the stored procedure accepts relevant parameters and returns the desired result set.
+- Creating a stored procedure simplifies the process of generating summary reports and allows for parameterized queries, increasing flexibility and efficiency in retrieving the required information.
