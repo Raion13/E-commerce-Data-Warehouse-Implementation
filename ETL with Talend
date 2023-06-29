@@ -1,0 +1,15 @@
+Open the Talend Studio application.
+Create a new project or open an existing project.
+Connect to Microsoft SQL Server database, Staging as Source and DWH_Project as Target.
+Add the tMSSqlInput component to retrieve data from the Staging as the source.
+Add the tMap component to perform data transformation on the DimCustomer.
+Inside the tMap, use the UPCASE function to convert all letters to uppercase.
+  StringHandling.UPCASE(row3.FirstName)
+  StringHandling.UPCASE(row3.LastName)
+Create New CustomerName Column in the output.
+Use the plus (+) operator to concatenate the FirstName and LastName columns into the CustomerName column.
+  Var.UpFirstName+" "+Var.UpLastName
+Add the tMSSqlOutput component as the target for the Data Warehouse.
+Connect the components according to the desired ETL flow (Insert or Insert if not exist).
+Run the ETL job and ensure that the data is successfully transferred.
+Check the result in the SQL Server Management Studio if the database DWH_Project is filled with data from Staging.
