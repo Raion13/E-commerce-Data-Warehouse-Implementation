@@ -20,7 +20,7 @@ The objective of this project is to successfully implement a Data Warehouse solu
 5. Steps:
 
 a. Import/Restore Database Staging
-- Obtain the source database backup file. Perform the necessary steps to import or restore the database into the staging environment.
+- Import or restore the database into the staging environment.
 - Importing the database into the staging environment is a crucial initial step for further data processing and transformation.
 
 b. Create DWH_Project Database and Tables
@@ -28,7 +28,7 @@ b. Create DWH_Project Database and Tables
 - Creating a dedicated database and designing the appropriate schema is essential for organizing the Data Warehouse effectively.
 
 c. Develop ETL Job with Talend
-- Configure Talend for ETL processes. Create a job in Talend to extract data from the staging tables and load it into the corresponding Fact and Dimension tables in the DWH_Project database. Implement data transformation logic for the DimCustomer table to capitalize the FirstName and LastName columns and combine them into a new column called CustomerName.
+- Create a job in Talend to extract data from the staging tables and load it into the corresponding Fact and Dimension tables in the DWH_Project database. Implement data transformation logic for the DimCustomer table to capitalize the FirstName and LastName columns and combine them into a new column called CustomerName.
 - Talend provides powerful ETL capabilities, enabling efficient data extraction, transformation, and loading. Transforming the customer name data aligns with the client's requirements and enhances data consistency.
 
 d. Create Summary Sales Order Stored Procedure
