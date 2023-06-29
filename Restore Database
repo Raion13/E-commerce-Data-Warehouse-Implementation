@@ -1,0 +1,7 @@
+Open SQL Server Management Studio (SSMS).
+Right-click on "Databases" in the Object Explorer and select "Restore Database".
+In the Restore Database window, select "Device" and click the "..." button on the right.
+Choose "File" and locate the Staging.bak file in the appropriate directory.
+Click "OK" to close the "Select backup devices" window.
+Select "Staging" in the "To database" section and ensure that the path of the database file being restored is correct.
+Click "OK" to start the database restore process. Wait until it completes.
