@@ -1,20 +1,20 @@
 # E-commerce-Data-Warehouse-Implementation
 Part of Virtual Internship from Rakamin X ID/X Partners.
 
-1. Background
+1. Background:
 As a Data Engineer at ID/X Partners, I have been assigned a project for a client in the e-commerce industry. The client's requirement is to build a Data Warehouse that consolidates data from various tables in their source database. The Data Warehouse will consist of a Fact table and several Dimension tables. The objective is to provide the client with a centralized and optimized data repository for analysis and reporting purposes.
 
-2. Problem Definition
+2. Problem Definition:
 The client needs a robust Data Warehouse solution to effectively analyze their e-commerce data. They want to streamline reporting, gain insights, and make data-driven decisions. The project involves importing the data into a staging environment, creating the Data Warehouse schema, implementing ETL processes, and developing a stored procedure for generating summary sales order reports based on delivery status.
 
-3. Objective
+3. Objective:
 The objective of this project is to successfully implement a Data Warehouse solution for the e-commerce client, enabling efficient data analysis and reporting. The Data Warehouse should accurately reflect the business processes and support the client's decision-making needs.
 
-4. Tools
+4. Tools:
 - SQL Server & SQL Server Management Studio
 - Talend
 
-6. Steps
+5. Steps:
 a. Import/Restore Database Staging
 - Obtain the source database backup file. Perform the necessary steps to import or restore the database into the staging environment.
 - Importing the database into the staging environment is a crucial initial step for further data processing and transformation.
